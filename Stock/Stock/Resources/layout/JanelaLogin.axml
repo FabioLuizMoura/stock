@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="300dp"
+    android:background="#B0C4DE"
+    android:minHeight="20dp">
+    <EditText
+        android:hint="Nome"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textColorHint="#A9A9A9"
+        android:textColor="#000"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="10dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/txtEmailUsuario"
+        android:background="@android:drawable/editbox_background_normal" />
+    <EditText
+        android:inputType="textPassword"
+        android:hint="Senha"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textColorHint="#A9A9A9"
+        android:textColor="#000"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/txtSenhaUsuario"
+        android:background="@android:drawable/editbox_background_normal" />
+    <Button
+        android:text="Logar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="10dp"
+        android:textSize="25sp"
+        android:id="@+id/btnLogarUsuario"
+        android:background="@drawable/botoespadrao"
+        android:textColor="#696969" />
+</LinearLayout>
